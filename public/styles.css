@@ -353,24 +353,33 @@ swiper-slide img {
   
 }
 
-.hero__container {
+.maxbb {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding-top: 59px;
-  
-  text-align: center;
-  
 }
 
 .hero__heading {
-  font-size: 70px;
-  margin-bottom: -20px;
+  font-size: 60px;
   color: white;
+  margin: 0;
 }
+
+@media screen and (max-width: 530px) {
+  .maxbb {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
 .hero__heading span {
 
@@ -390,6 +399,7 @@ swiper-slide img {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -mo-text-fill-color: transparent;
+  margin-bottom: -90px;
 }
 .mini{
  width: 810px;
