@@ -28,9 +28,12 @@ const initialize = () => {
             const accounts = await ethereum.request({ method: "eth_requestAccounts" });
             console.log("accounts: ", JSON.stringify(accounts[0]));
             // Save JSON string to localStorage
+
             accountE = JSON.stringify(accounts[0]);
+            console.log("German"+ accountE.toString());
+            highlightTableRow(accountE);
              localStorage.setItem('accountE', accountE);
-             highlightTableRow(accountE);
+            
              connectButton.value = "🟢 Connected";
             
             
@@ -67,24 +70,30 @@ const initialize = () => {
     onboardMetaMaskClient();
 };
 
-function highlightTableRow() {
+function highlightTableRow(accountE) {
     console.log("Your Account" + accountE)
+    var accounts = accountE.slice(1, -1);
+
     const table = document.getElementById("leaderboard-table");
     const rows = table.getElementsByTagName("tr");
-    accountE = accountE.substring(1, accountE.length - 1);
+
 
     for (let i = 0; i < rows.length -1; i++) { // Start from index 1 to skip the table header row
       const cell = rows[i].getElementsByTagName("td")[2];
       const cellText = cell.textContent;
+   
       
-      if (cellText.toString() === accountE) {
-        rows[i].style.backgroundColor = "#fcc602";
+      if (cellText.toString() === accounts) {
+        rows[i].style.backgroundColor = "#fcc602";}
+        else{
+        rows[i].style.backgroundColor = "";
+       }
        
 
         
       }
     }
-  }
+  
 
 document.addEventListener('DOMContentLoaded', initialize);
 

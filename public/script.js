@@ -1,5 +1,11 @@
 
-			
+// This script prevents scrolling on mobile devices
+function preventScrolling(event) {
+    event.preventDefault();
+}
+
+document.addEventListener('touchmove', preventScrolling, { passive: false });
+
 	
 			
 			

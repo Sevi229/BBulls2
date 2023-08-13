@@ -166,7 +166,7 @@ swiper-slide img {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 19px;
   cursor: pointer;
 }
 
@@ -353,33 +353,24 @@ swiper-slide img {
   
 }
 
-.maxbb {
+.hero__container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 59px;
+  
+  text-align: center;
+  
 }
 
 .hero__heading {
-  font-size: 60px;
+  font-size: 70px;
+  margin-bottom: -20px;
   color: white;
-  margin: 0;
 }
-
-@media screen and (max-width: 530px) {
-  .maxbb {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-
-
-
-
-
-
-
-
-
 
 .hero__heading span {
 
@@ -490,7 +481,7 @@ justify-content: center;
   font-family: 'Kumbh Sans', sans-serif;
 }
 .main__content p {
-  letter-spacing: -2.5px;
+  letter-spacing: -2.5;
 }
 
 
@@ -515,7 +506,7 @@ justify-content: center;
 .main__content p {
   
   margin-top: 1rem;
-  font-size: 20px;
+  font-size: 21px;
   
   font-family: 'Kumbh Sans', sans-serif;
   text-align: justify;
@@ -556,6 +547,7 @@ background-color: #131313;
   outline: none;
 }
 
+
 .main__btn a {
   position: relative;
   z-index: 2;
@@ -578,6 +570,7 @@ background-color: #131313;
 .main__btn:hover {
   color: #fff;
 }
+
 
 
 
@@ -664,7 +657,7 @@ background-color: #131313;
   }
 
   .main__content h1 {
-    font-size: 1.5rem;
+    font-size: 36px;
     margin-top: 2rem;
   }
 
@@ -722,6 +715,18 @@ background-color: #131313;
   height: 100%
   
  
+}
+
+.shortabout{
+  background-color: #ff8177;
+  background-image: linear-gradient(to right, #fcf40a, #fcd00a 20%, #fcf40a );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+   text-align: left;
+  font-size: 42px;
 }
 
 .services h1 {
@@ -1002,7 +1007,70 @@ background-color: #131313;
 .website__rights {
   color: #fff;
 }
+@media screen and (max-width: 520px) {
+ .hero__heading{
+  font-size: 60px;
+ }
+ .main__btn {
+  font-size: 24px;
 
+  padding: 15px 30px;
+
+}
+      
+
+}
+@media screen and (max-width: 450px) {
+  .hero__heading{
+   font-size: 50px;
+   margin-bottom: 0.3px;
+  }
+  .main__content p {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+.hero__description {
+  font-size: 1.3rem;
+  letter-spacing: -1.5;
+}
+#text-padding{
+  font-size: 1.2rem;
+}
+.main__btn {
+  font-size: 23px;
+
+  padding: 14px 29px;
+
+}
+ 
+ }
+ @media screen and (max-width: 383px) {
+  .hero__heading{
+   font-size: 40px;
+   margin-bottom: 0.3px;
+  }
+  .hero__description {
+    font-size: 1.2rem;
+    letter-spacing: -1.5;
+}
+  .main__content p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+#text-padding{
+  font-size: 1.1rem;
+}
+.main__btn {
+  font-size: 21px;
+
+  padding: 10px 20px;
+
+}
+#game{
+  margin-top: 80px;
+}
+ 
+ }
 @media screen and (max-width: 820px) {
   .footer__links {
     padding-top: 2rem;
