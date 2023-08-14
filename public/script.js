@@ -17,13 +17,18 @@ var accountE;
 			
 		
 //Sorry, the demo game is not playable on the mobile version. The device needs at least 960px. Please use a different device or change the screen size.</p>
+var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
 const divmain = document.createElement("div");
 const add1 = document.getElementsByClassName("tobig")[0]; // Select the first element with class "c"
 const img = document.createElement("img");
 img.src = "images/warnig.png";
-img.style.width = "65%";
-img.style.height = "65%";
+
+
+
+    img.style.width = "250";
+    img.style.height = "250";
+ 
 img.alt = "Image with text";
 img.style.position = "relative";
 
