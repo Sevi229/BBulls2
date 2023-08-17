@@ -23,11 +23,9 @@ const divmain = document.createElement("div");
 const add1 = document.getElementsByClassName("tobig")[0]; // Select the first element with class "c"
 const img = document.createElement("img");
 img.src = "images/warnig.png";
+img.id = "warnimg"
 
 
-
-    img.style.width = "20";
-    img.style.height = "20";
  
 img.alt = "Image with text";
 img.style.position = "relative";
