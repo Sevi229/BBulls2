@@ -89,7 +89,7 @@ swiper-slide img {
 }
 
 .navbar {
-  background-color: black;
+  background-color: red;
   height: 100px;
   
   display: flex;
@@ -225,7 +225,7 @@ swiper-slide img {
     height: 80px;
     z-index: 1001;
     width: 100%;
-    max-width: 1300px;
+   
     padding: 0;
    
   }
@@ -274,7 +274,7 @@ swiper-slide img {
     padding-bottom: 2.2rem;
     width: 100%;
     display: table;
-    background-color: blue;
+    background-color: black;
   }
 
   
