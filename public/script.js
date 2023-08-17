@@ -26,8 +26,8 @@ img.src = "images/warnig.png";
 
 
 
-    img.style.width = "250";
-    img.style.height = "250";
+    img.style.width = "25";
+    img.style.height = "25";
  
 img.alt = "Image with text";
 img.style.position = "relative";
