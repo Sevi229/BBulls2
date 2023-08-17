@@ -917,10 +917,13 @@ background-color: #131313;
     visibility: hidden;
     margin: 0;
     padding: 0;
+    height: 0px;
+    width: 0px;
   }
   .tobig{
     visibility: visible;
     height: max-content;
+    
     
   }
  
