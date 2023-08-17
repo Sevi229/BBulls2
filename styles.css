@@ -767,7 +767,12 @@ background-color: #131313;
   width: 20px;
   height: 20px;
 }
+.responsive-container {
+  width: 100%; /* Take up full width of the viewport */
+  max-width: 100%; /* Ensure it doesn't exceed the viewport width */
 
+  box-sizing: border-box;
+}
 
 
 
