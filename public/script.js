@@ -23,7 +23,7 @@ const divmain = document.createElement("div");
 const add1 = document.getElementsByClassName("tobig")[0]; // Select the first element with class "c"
 const img = document.createElement("img");
 img.src = "images/warnig.png";
-img.id = "warnimg"
+img.id = "warnImg"
 
 
  
