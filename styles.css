@@ -89,7 +89,7 @@ swiper-slide img {
 }
 
 .navbar {
-  background-color: yellow;
+  background-color: black;
   height: 100px;
   
   display: flex;
@@ -206,7 +206,7 @@ swiper-slide img {
   transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 960px)  {
 
 
 
@@ -225,7 +225,7 @@ swiper-slide img {
     height: 80px;
     z-index: 1001;
     width: 100%;
-   
+    max-width: 1300px;
     padding: 0;
    
   }
@@ -770,7 +770,7 @@ background-color: #131313;
 .responsive-container {
   width: 100%; /* Take up full width of the viewport */
   max-width: 100%; /* Ensure it doesn't exceed the viewport width */
-
+  overflow: hidden;
   box-sizing: border-box;
 }
 
@@ -923,7 +923,6 @@ background-color: #131313;
   .tobig{
     visibility: visible;
     height: max-content;
-    
     
   }
  
@@ -1431,7 +1430,7 @@ table {
   overflow-y: scroll;
     display: block;
     height: 610px;
-    width: 580px;
+    width: 558px;
     background-color: rgb(33, 32, 32);
 }
 table::-webkit-scrollbar {
@@ -1501,7 +1500,7 @@ button[type="submit"]:hover {
   max-height: 610px;
   overflow-y: auto;
   margin: 0 auto;
-  width: 300px;
+ 
   backdrop-filter: blur(10px);
   background-color: rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.1);

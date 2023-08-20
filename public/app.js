@@ -57,7 +57,7 @@ const highlightMenu = () => {
     return;
   }
 
-  else if (window.innerWidth > 960 && scrollPos < 5100) {
+  else if (window.innerWidth > 960 && scrollPos < 5000) {
     
     servicesMenu.classList.add('highlight');
     
@@ -75,8 +75,7 @@ const highlightMenu = () => {
     homeMenu.classList.remove('highlight');
     aboutMenu.classList.remove('highlight');
     about.classList.remove('highlight');
-    return;
-  }
+    return;   }
 
   if ((elem && window.innerWIdth < 960 && scrollPos < 600) || elem) {
     elem.classList.remove('highlight');

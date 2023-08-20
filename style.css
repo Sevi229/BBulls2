@@ -13,7 +13,8 @@ body {
    
   font: normal 15px/1.4 "Titillium Web",
    sans-serif;
-  background: red;
+  background: linear-gradient(54deg,
+   #131313, black);
   color: #3c3f64;
   overflow-x: hidden;
   padding-bottom: 50px;
@@ -26,7 +27,8 @@ body {
 
 #game{
  margin-top: 90px;
-  background: green;
+  background: linear-gradient(54deg,
+  #131313, black);
 
 }
 div.pad{
