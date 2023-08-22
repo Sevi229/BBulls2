@@ -98,7 +98,8 @@ swiper-slide img {
   position: sticky;
   top: 0;
   
-  z-index: 1000;
+  z-index: 100;
+  overflow: hidden;
 }
 
 .navbar__container {
@@ -107,7 +108,7 @@ swiper-slide img {
   justify-content: space-between;
   height: 110px;
   background-color: #000000;
-  z-index: 10000;
+  
   width: 100%;
   max-width: 2000px;
   margin: 0 auto;
@@ -356,6 +357,9 @@ swiper-slide img {
 /* Hero Section */
 .hero {
   background-color: #131313;
+  padding-top: 150px;
+
+
   
   
 }
@@ -368,7 +372,7 @@ swiper-slide img {
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 59px;
-  
+  overflow: hidden;
   text-align: center;
   
 }
@@ -459,7 +463,10 @@ justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
-
+  .roadfull {
+     padding-bottom: 10px;
+     padding-top: 10px; 
+}
   
 
   .hero__description {

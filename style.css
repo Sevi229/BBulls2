@@ -176,8 +176,8 @@ font: normal 45px "Arial";
 }
 @media screen and (max-width:660px){
   .roadfull{
-    padding-bottom: 100px;
-    padding-top: 600px;
+    padding-bottom: 50px;
+    padding-top: 200px;
 
   }
   .pad{
