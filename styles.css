@@ -89,9 +89,8 @@ swiper-slide img {
 }
 
 .navbar {
-  background-color: black;
-  height: 100px;
-  
+ 
+ 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,13 +103,20 @@ swiper-slide img {
 
 .navbar__container {
   display: flex;
+  position: fixed;
   justify-content: space-between;
-  height: 120;
-  z-index: 1;
+  height: 110px;
+  background-color: #000000;
+  z-index: 10000;
   width: 100%;
-  max-width: 1900px;
+  max-width: 2000px;
   margin: 0 auto;
-  padding: 0 50px;
+  padding: 0 53px;
+  margin-top: 80px;
+
+
+ 
+
   
 }
 
@@ -397,7 +403,7 @@ swiper-slide img {
  width: 810px;
  padding-top: 30px;
  font-family: 'Kumbh Sans', sans-serif;
- padding-bottom: 3vw
+ padding-bottom: 60px
 
 	
 }
@@ -1490,7 +1496,7 @@ form {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.1);
+ 
   box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
 }
