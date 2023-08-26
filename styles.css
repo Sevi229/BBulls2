@@ -110,7 +110,7 @@ swiper-slide img {
   background-color: #000000;
   
   width: 100%;
-  max-width: 2000px;
+  max-width: 4000px;
   margin: 0 auto;
   padding: 0 53px;
   margin-top: 80px;
@@ -778,8 +778,8 @@ background-color: #131313;
 
 
 #warnImg{
-  width: 440px;
-  height: 440px;
+  width: 410px;
+  height: 410px;
 }
 .responsive-container {
   width: 100%; /* Take up full width of the viewport */
