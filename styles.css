@@ -97,7 +97,7 @@ swiper-slide img {
   font-size: 1.5rem;
   position: sticky;
   top: 0;
-  width: 100%;
+  
   z-index: 100;
   overflow: hidden;
 }
@@ -110,7 +110,7 @@ swiper-slide img {
   background-color: #000000;
   
   width: 100%;
-  max-width: 4000px;
+  max-width: 2000px;
   margin: 0 auto;
   padding: 0 53px;
   margin-top: 80px;
@@ -273,7 +273,13 @@ swiper-slide img {
     width: 100%;
   }
 
-
+  .navbar__links {
+    text-align: center;
+    padding-bottom: 2.2rem;
+    width: 100%;
+    display: table;
+    background-color: black;
+  }
 
   
 
@@ -782,8 +788,9 @@ background-color: #131313;
   box-sizing: border-box;
   display: block;
   cursor: pointer;
+  position: sticky;
+  z-index: 10000;
 }
-
 
 
 

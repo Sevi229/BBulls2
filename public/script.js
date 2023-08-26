@@ -2,13 +2,6 @@
 // This script prevents scrolling on mobile devices
 
 
-	
-			
-			
-			
-			
-		
-
 			
 let score = 0;
 let gscore = 0;
