@@ -471,6 +471,7 @@ justify-content: center;
 
   .hero__description {
     font-size: 25px;
+    
   }
 }
 
@@ -947,7 +948,8 @@ background-color: #131313;
 
   .hero__description {
   
-    letter-spacing: -1.7px;
+    letter-spacing: -1.4px;
+    word-spacing: -2.5px;
     padding-top: -200px;
   
   }
@@ -1052,42 +1054,57 @@ background-color: #131313;
     width: 300px;
     height: 300px;
   }
-  
+  #text-padding p{
+    letter-spacing: -1.5px;
+  }
 
 
  
   .hero__heading{
   font-size: 60px;
+  letter-spacing: -1.3px;
  }
  .main__btn {
   font-size: 24px;
-
+ 
   padding: 15px 30px;
 
 }
       
 
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   #warnImg{
     width: 250px;
     height: 250px;
   }
+  .main__content main{
+    font-size: 1.3rem;
+    letter-spacing: -1.5px;
+   }
   
   .hero__heading{
+    
    font-size: 50px;
    margin-bottom: 0.3px;
+
+
   }
   .main__content p {
     margin-top: 1rem;
     font-size: 1.2rem;
+    letter-spacing: -1px;
+
 }
 .hero__description {
   font-size: 1.3rem;
-  letter-spacing: -1.7px;
+  letter-spacing: -1px;
+  word-spacing: -1.5px;
 }
-#text-padding{
+#text-padding p{
   font-size: 1.2rem;
+  letter-spacing: -1.5px;
+  word-spacing: -2.5px;
 }
 .main__btn {
   font-size: 23px;
@@ -1097,7 +1114,7 @@ background-color: #131313;
 }
  
  }
- @media screen and (max-width: 383px) {
+ @media screen and (max-width: 460px) {
   #warnImg{
     width: 200px;
     height: 200px;
@@ -1107,15 +1124,63 @@ background-color: #131313;
    margin-bottom: 0.3px;
   }
   .hero__description {
-    font-size: 1.2rem;
-    letter-spacing: -1.6px;
+    font-size: 1.15rem;
+    word-spacing: -1.5px;
+    letter-spacing: -1.2px;
 }
   .main__content p {
     margin-top: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.15rem;
+    letter-spacing: -1px;
 }
-#text-padding{
+ .main__content main{
+  font-size: 1.15rem;
+  letter-spacing: -1.5px;
+ }
+#text-padding p{
+  font-size: 1.15rem;
+  letter-spacing: -1.5px;
+  word-spacing: -1.5px;
+}
+.main__btn {
+  font-size: 21px;
+
+  padding: 10px 20px;
+
+}
+#game{
+  margin-top: 80px;
+}
+ 
+ }
+ @media screen and (max-width: 350px) {
+  #warnImg{
+    width: 200px;
+    height: 200px;
+  }
+  .hero__heading{
+   font-size: 40px;
+   margin-bottom: 0.3px;
+  }
+  .hero__description {
+    font-size: 1.1rem;
+    letter-spacing: -1.3px;
+    word-spacing: -1px;
+}
+  .main__content p {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    letter-spacing: -1px;
+    word-spacing: -1px;
+}
+ .main__content main{
   font-size: 1.1rem;
+  letter-spacing: -1.5px;
+ }
+#text-padding p{
+  font-size: 1.1rem;
+  letter-spacing: -1px;
+  word-spacing: -1px;
 }
 .main__btn {
   font-size: 21px;
@@ -1132,6 +1197,7 @@ background-color: #131313;
   .footer__links {
     padding-top: 2rem;
   }
+  
 
   #footer__logo {
     margin-bottom: 2rem;
