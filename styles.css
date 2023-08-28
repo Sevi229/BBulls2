@@ -1073,7 +1073,7 @@ background-color: #131313;
       
 
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 530px) {
   #warnImg{
     width: 250px;
     height: 250px;
@@ -1093,7 +1093,9 @@ background-color: #131313;
   .main__content p {
     margin-top: 1rem;
     font-size: 1.2rem;
-    letter-spacing: -1px;
+    letter-spacing: -1.3px;
+    word-spacing: -1px;
+    
 
 }
 .hero__description {
@@ -1104,7 +1106,7 @@ background-color: #131313;
 #text-padding p{
   font-size: 1.2rem;
   letter-spacing: -1.5px;
-  word-spacing: -2.5px;
+
 }
 .main__btn {
   font-size: 23px;
