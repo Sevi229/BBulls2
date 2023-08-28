@@ -1127,7 +1127,7 @@ background-color: #131313;
   }
   .hero__description {
     font-size: 1.15rem;
-    word-spacing: -1.5px;
+    word-spacing: -1px;
     letter-spacing: -1.2px;
 }
   .main__content p {
@@ -1141,8 +1141,8 @@ background-color: #131313;
  }
 #text-padding p{
   font-size: 1.15rem;
-  letter-spacing: -1.5px;
-  word-spacing: -1.5px;
+  letter-spacing: -1px;
+  word-spacing: -1px;
 }
 .main__btn {
   font-size: 21px;
