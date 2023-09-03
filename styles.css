@@ -534,7 +534,7 @@ justify-content: center;
   word-spacing: -0.5px;
 }
 .main__content main {
-  
+  letter-spacing: -0.5px;
   margin-top: 1rem;
    font-weight: 400;
    word-spacing:   -0.3px; 
