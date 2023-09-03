@@ -503,9 +503,6 @@ justify-content: center;
   font-size: 25px;
   font-family: 'Kumbh Sans', sans-serif;
 }
-.main__content p {
-  letter-spacing: -2.5px;
-}
 
 
 .main__content h2 {
@@ -533,13 +530,14 @@ justify-content: center;
   
   font-family: 'Kumbh Sans', sans-serif;
   text-align: justify;
-  letter-spacing: -1.5px;
+  letter-spacing: -1px;
+  word-spacing: -0.5px;
 }
 .main__content main {
   
   margin-top: 1rem;
    font-weight: 400;
-   word-spacing:   -0.3em; 
+   word-spacing:   -0.3px; 
    font: normal 20px "Arial";
   text-align: justify;
   background-image: linear-gradient(to right, #fcf40a, #fcd80a 50%, #fcf40a );
@@ -948,7 +946,7 @@ background-color: #131313;
 
   .hero__description {
   
-    letter-spacing: -1.4px;
+    letter-spacing: -1.6px;
     word-spacing: -2.5px;
     padding-top: -200px;
   
@@ -1134,10 +1132,11 @@ background-color: #131313;
     margin-top: 1rem;
     font-size: 1.35rem;
     letter-spacing: -1.2px;
+    word-spacing: -1.2px;
 }
  .main__content main{
   font-size: 1.35rem;
-  letter-spacing: -1.5px;
+  letter-spacing: -1.34px;
  }
 #text-padding p{
   font-size: 1.35rem;
@@ -1177,7 +1176,7 @@ background-color: #131313;
 }
  .main__content main{
   font-size: 1.14rem;
-  letter-spacing: -1.5px;
+  letter-spacing: -1.3px;
   word-spacing: -1.2px;
 
  }
