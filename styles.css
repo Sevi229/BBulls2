@@ -539,7 +539,7 @@ justify-content: center;
   
   margin-top: 1rem;
    font-weight: 400;
-
+   word-spacing:   -0.3em; 
    font: normal 20px "Arial";
   text-align: justify;
   background-image: linear-gradient(to right, #fcf40a, #fcd80a 50%, #fcf40a );
@@ -1079,32 +1079,32 @@ background-color: #131313;
     height: 250px;
   }
   .main__content main{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     letter-spacing: -1.5px;
    }
   
   .hero__heading{
     
-   font-size: 50px;
+   font-size: 54px;
    margin-bottom: 0.3px;
 
 
   }
   .main__content p {
     margin-top: 1rem;
-    font-size: 1.2rem;
-    letter-spacing: -1.3px;
-    word-spacing: -1px;
+    font-size: 1.4rem;
+    letter-spacing: -1.4px;
+    word-spacing: -1.2px;
     
 
-}
+   }
 .hero__description {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   letter-spacing: -1px;
-  word-spacing: -1.5px;
+  word-spacing: -1.36px;
 }
 #text-padding p{
-  font-size: 1.2rem;
+  font-size: 1.45rem;
   letter-spacing: -1.5px;
 
 }
@@ -1115,33 +1115,33 @@ background-color: #131313;
 
 }
  
- }
+}
  @media screen and (max-width: 460px) {
   #warnImg{
     width: 200px;
     height: 200px;
   }
   .hero__heading{
-   font-size: 40px;
+   font-size: 49px;
    margin-bottom: 0.3px;
   }
   .hero__description {
-    font-size: 1.15rem;
-    word-spacing: -1px;
-    letter-spacing: -1.2px;
+    font-size: 1.35rem;
+    word-spacing: -1.5px;
+    letter-spacing: -1.6px;
 }
   .main__content p {
     margin-top: 1rem;
-    font-size: 1.15rem;
-    letter-spacing: -1px;
+    font-size: 1.35rem;
+    letter-spacing: -1.2px;
 }
  .main__content main{
-  font-size: 1.15rem;
+  font-size: 1.35rem;
   letter-spacing: -1.5px;
  }
 #text-padding p{
-  font-size: 1.15rem;
-  letter-spacing: -1px;
+  font-size: 1.35rem;
+  letter-spacing: -1.2px;
   word-spacing: -1px;
 }
 .main__btn {
@@ -1155,34 +1155,36 @@ background-color: #131313;
 }
  
  }
- @media screen and (max-width: 350px) {
+ @media screen and (max-width: 360px) {
   #warnImg{
     width: 200px;
     height: 200px;
   }
   .hero__heading{
-   font-size: 40px;
+   font-size: 41px;
    margin-bottom: 0.3px;
   }
   .hero__description {
     font-size: 1.14rem;
-    letter-spacing: -1.3px;
+    letter-spacing: -1.6px;
     word-spacing: -1px;
 }
   .main__content p {
     margin-top: 1rem;
-    font-size: 1.1rem;
-    letter-spacing: -1px;
-    word-spacing: -1px;
+    font-size: 1.14rem;
+    letter-spacing: -1.3px;
+    word-spacing: -1.2px;
 }
  .main__content main{
-  font-size: 1.1rem;
+  font-size: 1.14rem;
   letter-spacing: -1.5px;
+  word-spacing: -1.2px;
+
  }
 #text-padding p{
   font-size: 1.14rem;
-  letter-spacing: -1px;
-  word-spacing: -1px;
+  letter-spacing: -1.3px;
+  word-spacing: -1.3px;
 }
 .main__btn {
   font-size: 21px;
