@@ -908,9 +908,9 @@ background-color: #131313;
 
 }
 
-@media screen and (max-width: 1100px) and (min-width: 820px) {
+@media screen and (max-width: 9100px) and (min-width: 820px) {
   .roadfull{
-    padding-top: 350px;
+    padding-top: 250px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1158,6 +1158,7 @@ background-color: #131313;
 .main{
     
   padding-top: 3rem;
+ 
 }
  
  }
