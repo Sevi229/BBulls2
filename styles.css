@@ -816,7 +816,7 @@ background-color: #131313;
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background-image: url("images/60.png");
+  background-image: url("images/53.png");
   background-position: center; /* center the image */
   background-size: contain;
   background-position: center;
@@ -837,7 +837,7 @@ background-color: #131313;
 }
 
 .services__card:nth-child(3) {
-  background-image: url("images/24.png");
+  background-image: url("images/44.png");
   background-position: center; /* center the image */
   background-size: contain;
   background-position: center;
