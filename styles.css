@@ -15,8 +15,9 @@ top: 24px;
 border-radius: 20px;
 }
 swiper-container {
-  width: 94%;
+  width: 92%;
   height: 96%;
+  margin-right: 200px;
   
 }
 .swiper-wrapper{
@@ -484,7 +485,7 @@ justify-content: center;
 
 .main__container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.85fr 1.1fr;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
@@ -755,8 +756,8 @@ background-color: #131313;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
    text-align: left;
-  font-size: 40px;
-  margin-top: 200px;
+  font-size: 38px;
+  
 }
 
 .services h1 {
