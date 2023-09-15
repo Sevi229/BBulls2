@@ -532,7 +532,7 @@ justify-content: center;
   font-family: 'Kumbh Sans', sans-serif;
   text-align: justify;
   letter-spacing: -1px;
-  word-spacing: -0.5px;
+  word-spacing: -1px;
 }
 .main__content main {
   letter-spacing: -0.5px;
