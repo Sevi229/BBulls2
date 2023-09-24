@@ -829,7 +829,7 @@ background-color: #131313;
 }
 
 .services__card:nth-child(2) {
-  background-image: url("images/63.png");
+  background-image: url("images/101.png");
   background-position: center; /* center the image */
   background-size: contain;
   background-position: center;
@@ -839,7 +839,7 @@ background-color: #131313;
 }
 
 .services__card:nth-child(3) {
-  background-image: url("images/44.png");
+  background-image: url("images/100.png");
   background-position: center; /* center the image */
   background-size: contain;
   background-position: center;
