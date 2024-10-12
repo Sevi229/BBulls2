@@ -407,7 +407,7 @@ swiper-slide img {
 .mini{
  width: 810px;
  padding-top: 30px;
- font-family: 'Kumbh Sans', sans-serif;
+ font-family: 'Roboto', sans-serif; 
  padding-bottom: 60px
 
 	
@@ -446,7 +446,7 @@ padding-top: 30px;
 
 width: 100%;
 
-font-family: 'Kumbh Sans', sans-serif;
+font-family: 'Roboto', sans-serif; 
 padding-left: 20px;
 
 align-items: center;
@@ -502,7 +502,7 @@ justify-content: center;
   position: sticky;
   width: 100%;
   font-size: 25px;
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: 'Roboto', sans-serif; 
 }
 
 
@@ -528,17 +528,16 @@ justify-content: center;
   
   margin-top: 1rem;
   font-size: 21px;
-  
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: 'Roboto', sans-serif; 
   text-align: justify;
   letter-spacing: -1px;
-  word-spacing: -1px;
+ 
 }
 .main__content main {
   letter-spacing: -0.5px;
   margin-top: 1rem;
    font-weight: 400;
-   word-spacing:   -0.3px; 
+   
    font: normal 20px "Arial";
   text-align: justify;
   background-image: linear-gradient(to right, #fcf40a, #fcd80a 50%, #fcf40a );
@@ -819,7 +818,7 @@ background-color: #131313;
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background-image: url("images/16.png");
+  background-image: url("images/22.png");
   background-position: center; /* center the image */
   background-size: contain;
   background-position: center;
@@ -830,7 +829,7 @@ background-color: #131313;
 }
 
 .services__card:nth-child(2) {
-  background-image: url("images/1.png");
+  background-image: url("images/13.png");
   background-position: center; /* center the image */
   background-size: contain;
   background-position: center;
@@ -840,7 +839,7 @@ background-color: #131313;
 }
 
 .services__card:nth-child(3) {
-  background-image: url("images/97.png");
+  background-image: url("images/23.png");
   background-position: center; /* center the image */
   background-size: contain;
   background-position: center;
@@ -848,7 +847,7 @@ background-color: #131313;
 }
 
 .services__card:nth-child(4) {
-  background-image: url("images/48.png");
+  background-image: url("images/21.png");
   background-position: center; /* center the image */
   background-size: contain;
   background-position: center;
@@ -950,7 +949,7 @@ background-color: #131313;
   .hero__description {
   
     letter-spacing: -1.6px;
-    word-spacing: -2.5px;
+    
     padding-top: -200px;
   
   }
@@ -1095,14 +1094,14 @@ background-color: #131313;
     margin-top: 1rem;
     font-size: 1.4rem;
     letter-spacing: -1.4px;
-    word-spacing: -1.2px;
+  
     
 
    }
 .hero__description {
   font-size: 1.4rem;
   letter-spacing: -1px;
-  word-spacing: -1.36px;
+ 
 }
 #text-padding p{
   font-size: 1.45rem;
@@ -1128,7 +1127,7 @@ background-color: #131313;
   }
   .hero__description {
     font-size: 1.35rem;
-    word-spacing: -1.5px;
+
     letter-spacing: -1.6px;
     white-space: -0.5px;
 }
@@ -1136,7 +1135,7 @@ background-color: #131313;
     margin-top: 1rem;
     font-size: 1.35rem;
     letter-spacing: -1.2px;
-    word-spacing: -1.2px;
+    
     white-space: -1.5px;
     
 }
@@ -1147,7 +1146,7 @@ background-color: #131313;
 #text-padding p{
   font-size: 1.35rem;
   letter-spacing: -1.2px;
-  word-spacing: -1px;
+ 
 }
 .main__btn {
   font-size: 24px;
@@ -1182,27 +1181,27 @@ background-color: #131313;
   .hero__description {
     font-size: 1.14rem;
     letter-spacing: -1.25px;
-    word-spacing: -1.05px;
+ 
     white-space: -0.5px;
 }
   .main__content p {
     margin-top: 1rem;
     font-size: 1.14rem;
     letter-spacing: -1.3px;
-    word-spacing: -1.2px;
+
     white-space: -0.5px;
 }
 
  .main__content main{
   font-size: 1.14rem;
   letter-spacing: -1.2px;
-  word-spacing: -1.05px;
+
 
  }
 #text-padding p{
   font-size: 1.14rem;
   letter-spacing: -1.3px;
-  word-spacing: -1.3px;
+
   white-space: -0.5px;
 }
 
@@ -1289,7 +1288,7 @@ background-color: #131313;
 label{
   color:rgba(161, 11, 104, 0.952);   /* Farbe orange */
   font-size:24pt;  /* Größe 28pt   */
-  font-family: "Helvetica"; /* Schriftart */
+  font-family: 'Roboto', sans-serif; 
   cursor: none;
   font-weight: bold;
   pointer-events: none;
